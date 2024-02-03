@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+:root{
+  --main-font: 'Montserrat Alternates', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--main-font);
+
+  background-color: #131722;
+  color: aliceblue;
+  
+
+}
+.bord{
+  height: 1px;
+  background-color: #a8a8a8;
+}
+.pragravshome{
+  color: #8c8b8bb9;
+}
+a{
+  text-decoration: none;
+  color: rgb(225, 225, 225);
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.my-input{
+  background-color: transparent;
+  border: solid 1px #a8a8a83d;
+  color: aliceblue;
+}
+.Register{
+  background-color: #131722;
+  padding-bottom: 70px;
+}
+.Register button{
+  background-color: rgb(12, 182, 182);
+  color: aliceblue;
+  border: none;
+  border-radius:6px ;
+}
+.Register button:hover{
+  color: black;
+  background-color: aliceblue;
+}
+.login button{
+  background-color: rgb(12, 182, 182);
+  color: aliceblue;
+  border: none;
+  border-radius:6px ;
+}
+.login button:hover{
+  color: black;
+  background-color: aliceblue;
+}
+.Register  i:hover  {
+  color: black;
+}
+.login{
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.offilne{
+  background-color: rgb(17, 0, 255);
+  color: azure;
+  box-shadow: 10px 10px 10px #ccc;
+  padding: 20px;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  z-index: 22;
+}

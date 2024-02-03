@@ -1,0 +1,36 @@
+.Navber{
+    background-color: #121725d7;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    padding: 2px;
+}
+.Navber ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.Navber h3{
+color: rgb(184, 1, 32);
+
+}
+.Navber ul li{
+    list-style: none;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.Navber a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.Navber a:hover{
+    color: #ff0000;
+}
+.Navber .icon{
+    color: white;
+    cursor: pointer;
+} 
+.Navber .icon i:hover {
+ color: rgb(167, 0, 28);
+}

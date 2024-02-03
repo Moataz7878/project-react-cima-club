@@ -1,0 +1,27 @@
+.Footer{
+    background-color: #2c3e50;
+width: 100%;
+}
+.Footer h4{
+    font-weight: 700;
+    padding: 15px 0px 4px 0px;
+}
+.Footer .end{
+    width: 100%;
+    background-color: #1a252f;
+    padding: 3px;
+    text-align: center;
+    color: aliceblue;
+}
+.Footer i{
+    color: white;
+    width: 34px;
+    height: 34px;
+
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.Footer i:hover{
+    background-color: white;
+    color:#2c3e50 ;
+}
